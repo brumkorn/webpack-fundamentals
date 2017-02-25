@@ -4,9 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server -d -p",
     "build-dev": "webpack",
-    "build-prod": "webpack --config webpack-production-config.js -p"
+    "build-prod": "webpack --config webpack-production-config.js -d -p"
   },
   "keywords": [],
   "author": "Joe Eames",

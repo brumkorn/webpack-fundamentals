@@ -1,5 +1,7 @@
-import './login';
+import {login} from './login';
 
-document.write('Nice minified app ');
+login('admin', 'dunno');
+
+document.write('Welcome!!!');
 
 console.log('App loaded again');
